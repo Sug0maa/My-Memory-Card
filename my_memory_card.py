@@ -1,3 +1,4 @@
+# подключение библеотек
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QGroupBox, QButtonGroup, QPushButton, QHBoxLayout, QVBoxLayout,  QLabel,QMessageBox, QRadioButton
 from random import shuffle
@@ -165,4 +166,5 @@ main_win.total = 0
 next_question()
 main_win.show()
 app.exec()
+
 
